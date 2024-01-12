@@ -24,16 +24,7 @@ define(function () {
       return 'Tidak ada data yang sesuai';
     },
     searching: function () {
-      return 'Sedang mencari…';
-    },
-    removeAllItems: function () {
-      return 'Hapus semua item';
-    },
-    removeItem: function () {
-      return 'Hapus item';
-    },
-    search: function() {
-      return 'Cari';
+      return 'Mencari…';
     }
   };
 });

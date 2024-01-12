@@ -7,7 +7,7 @@ define(function () {
     inputTooLong: function (args) {
       var overChars = args.input.length - args.maximum;
 
-      var message = 'Vă rugăm să ștergeți ' + overChars + ' caracter';
+      var message = 'Vă rugăm să ștergeți' + overChars + ' caracter';
 
       if (overChars !== 1) {
         message += 'e';
@@ -19,7 +19,7 @@ define(function () {
       var remainingChars = args.minimum - args.input.length;
 
       var message = 'Vă rugăm să introduceți ' + remainingChars +
-        ' sau mai multe caractere';
+        'sau mai multe caractere';
 
       return message;
     },
@@ -41,9 +41,6 @@ define(function () {
     },
     searching: function () {
       return 'Căutare…';
-    },
-    removeAllItems: function () {
-      return 'Eliminați toate elementele';
     }
   };
 });

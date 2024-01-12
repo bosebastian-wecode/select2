@@ -31,15 +31,6 @@ define(function () {
     },
     searching: function () {
       return 'Aranıyor…';
-    },
-    removeAllItems: function () {     
-      return 'Tüm öğeleri kaldır';
-    },
-    removeItem: function () {
-      return 'Bu öğeyi kaldır';
-    },
-    search: function() {
-      return 'Ara';
     }
   };
 });

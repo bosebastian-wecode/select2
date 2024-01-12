@@ -35,15 +35,6 @@ define(function () {
     },
     searching: function () {
       return 'A procurar…';
-    },
-    removeAllItems: function () {
-      return 'Remover todos os itens';
-    },
-    removeItem: function () {
-      return 'Remover iten';
-    },
-    search: function() {
-      return 'Procurar';
     }
   };
 });

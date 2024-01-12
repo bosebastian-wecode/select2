@@ -1,9 +1,6 @@
 define(function () {
   // Chinese (Traditional)
   return {
-    errorLoading: function () {
-      return '無法載入結果。';
-    },
     inputTooLong: function (args) {
       var overChars = args.input.length - args.maximum;
 
@@ -31,12 +28,6 @@ define(function () {
     },
     searching: function () {
       return '搜尋中…';
-    },
-    removeAllItems: function () {     
-      return '刪除所有項目';
-    },
-    removeItem: function () {
-      return '刪除項目';
     }
   };
 });

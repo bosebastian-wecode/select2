@@ -2,7 +2,7 @@ define(function () {
   // Spanish
   return {
     errorLoading: function () {
-      return 'No se pudieron cargar los resultados';
+      return 'La carga falló';
     },
     inputTooLong: function (args) {
       var remainingChars = args.input.length - args.maximum;
@@ -47,15 +47,6 @@ define(function () {
     },
     searching: function () {
       return 'Buscando…';
-    },
-    removeAllItems: function () {
-      return 'Eliminar todos los elementos';
-    },
-    removeItem: function () {
-      return 'Eliminar elemento';
-    },
-    search: function() {
-      return 'Buscar';
     }
   };
 });

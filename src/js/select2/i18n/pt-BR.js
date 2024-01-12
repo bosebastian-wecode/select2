@@ -41,15 +41,6 @@ define(function () {
     },
     searching: function () {
       return 'Buscando…';
-    },
-    removeAllItems: function () {
-      return 'Remover todos os itens';
-    },
-    removeItem: function () {
-      return 'Remover item';
-    },
-    search: function() {
-      return 'Buscar';
     }
   };
 });
